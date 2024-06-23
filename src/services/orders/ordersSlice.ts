@@ -35,6 +35,7 @@ export const ordersSlice = createSlice({
         state.isLoad = false;
       })
       .addCase(getOrders.rejected, (state) => {
+        state.orders = [];
         state.isLoad = false;
       });
   }

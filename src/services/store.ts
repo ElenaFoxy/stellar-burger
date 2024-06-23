@@ -12,7 +12,7 @@ import { constructorReducer } from './constructor/constructorSlice';
 import { feedReducer } from './feed/feedSlice';
 import { ordersReducer } from './orders/ordersSlice';
 
-const rootReducer = combineReducers({
+export const rootReducer = combineReducers({
   auth: authReducer,
   ingredients: ingredientsReducer,
   burger: constructorReducer,

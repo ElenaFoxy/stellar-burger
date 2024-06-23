@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "refreshToken": "foxytokenrefresh",
+    "accessToken": "foxytoken access",
+    "user": {
+        "email": "foxy@mail.ru",
+        "name": "Foxy Happy"
+    }
+}
